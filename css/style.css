@@ -1,14 +1,47 @@
 /* Global Styles */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Helvetica;
+}
+h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+h2{
+    font-size: 40px;
+    font-weight: 600;
+}
+h3{
+    font-size: 30px;
+    font-weight: 400;
+}
+h4{
+    font-size: 20px;
+    font-weight: 400;
+}
 
+
+.email-section input{
+    height: 50px;
+    width: 500px;
+    padding-left: 20px;
+    font-size: 15px;
+}
+.email-section button{
+    height: 57px;
+    background: red;
+    color: #fff;
+    padding:  10px 30px 10px 30px;
+    font-size: 20px;
+    /* margin: 0; */
+}
 
 
 
 /* Hero Section */
-
-header{
-
-}
-
 header img{
     width: 200px;
 }
@@ -22,7 +55,15 @@ header img{
     flex-direction: column;
     color: #fff;
 }
-
-.hf-item{
-    flex-basis: 100%;
+.hero-section h1{
+    text-align: center;
+    padding-top: 200px;
 }
+
+.hero-section h3{
+    height: 70px;
+}
+
+/* .hf-item{
+    flex-basis: 100%;
+} */
