@@ -1,0 +1,28 @@
+/* Global Styles */
+
+
+
+
+/* Hero Section */
+
+header{
+
+}
+
+header img{
+    width: 200px;
+}
+
+.hero-section{
+    background-image: url(../images/GH-en-20221219-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+}
+
+.hf-item{
+    flex-basis: 100%;
+}
