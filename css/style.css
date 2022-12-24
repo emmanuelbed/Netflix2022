@@ -31,24 +31,23 @@ h4{
     font-size: 15px;
 }
 .email-section button{
-    height: 57px;
+    height: 55px;
     background: red;
     color: #fff;
     padding:  10px 30px 10px 30px;
     font-size: 20px;
+    border: none;
     /* margin: 0; */
 }
 
 
 
 /* Hero Section */
-header img{
-    width: 200px;
-}
+
 
 .hero-section{
     background-image: url(../images/GH-en-20221219-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     display:flex;
     align-items: center;
@@ -64,6 +63,27 @@ header img{
     height: 70px;
 }
 
-/* .hf-item{
-    flex-basis: 100%;
-} */
+header{
+    display: flex;
+    /* justify-items: last baseline; */
+    justify-content: space-between !important;
+    width: 90%;
+}
+
+header img{
+    width: 200px;
+    float: left;
+}
+
+header .btn{
+    height: 40px;
+    width: 100px;
+    /* margin-right: 50px; */
+    border-radius: 5px;
+    background: red;
+    border:none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 25px;
+}
