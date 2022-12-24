@@ -22,6 +22,11 @@ h4{
     font-size: 20px;
     font-weight: 400;
 }
+hr{
+    height: 07px;
+    background-color: rgb(51, 51, 51);
+    border: none;
+}
 
 
 .email-section input{
@@ -38,6 +43,16 @@ h4{
     font-size: 20px;
     border: none;
     /* margin: 0; */
+}
+
+.two-column-section{
+    background-color: #000;
+    color: #fff;
+    padding: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -100,3 +115,11 @@ header .btn{
     font-weight: 500;
     margin-top: 25px;
 }
+
+/* Enjoy Your TV Section */
+
+.two-column-section h2{
+    padding-bottom: 20px;
+}
+
+
