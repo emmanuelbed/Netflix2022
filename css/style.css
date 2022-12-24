@@ -122,4 +122,12 @@ header .btn{
     padding-bottom: 20px;
 }
 
-
+/* FAQ section */
+.faq-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #000;
+    color: #fff;
+    padding: 100px;
+}
